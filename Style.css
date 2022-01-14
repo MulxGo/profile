@@ -1,0 +1,81 @@
+html, body {
+    margin: 30px;
+ }
+
+body {
+    background-image: url(https://img.freepik.com/photos-gratuite/etoiles-galaxie-espace-extra-atmospherique-ciel-nuit-univers-fond-etoile-noir-starfield-brillant_146539-2085.jpg?size=626&ext=jpg);
+ }
+
+ div {
+    background-color: rgb(23, 34, 64);
+    opacity: 1;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+img {
+    width: 120px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.logo{
+    width: 40px;
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+
+ h1 {
+    color: rgb(255, 255, 255);
+    font-size: 25; 
+    font-family: Arial, sans-serif; 
+    text-align: center;  
+ }
+ h2 {
+    color: rgb(255, 255, 255);  
+    font-size: 15;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+ }
+  h3 {
+    color: rgb(255, 255, 255);
+    font-size: 12;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+ }
+
+ .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(70, 89, 10);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(24, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
